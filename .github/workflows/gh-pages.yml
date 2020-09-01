@@ -23,7 +23,7 @@ jobs:
       - name: Build
         run: |
           hugo --gc --minify --cleanDestinationDir
-          [ -f ./CNAME ] && cp ./CNAME ./public/CNAME
+          [ -f ./CNAME ] && cp ./CNAME ./public/CNAME || true
 
 
       - name: Deploy
