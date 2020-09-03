@@ -1,0 +1,42 @@
+{{- define "main" }}
+{{- $scratch := newScratch }}
+{{- if isset .Params "image" }}
+  {{- $scratch.Set "image" .Params.image }}
+{{- else }}
+  {{ $scratch.Set "image" .Site.Params.fallBackOgImage }}
+{{- end }}
+{{- $image := $scratch.Get "image" }}
+{{- $bg := (path.Join "images" $image | absLangURL) }}
+<div class = 'grid-inverse wrap content'>
+  <article class='post_content'>
+    <h1 class='post_title'>{{ .Title }}</h1>
+    {{- partial "post-meta" . }}
+    {{ partial "share" . }}
+    {{ with .Params.featureImage }}
+    <img src = '{{ . }}' class="image_featured">
+    {{ end }}
+    {{ if .Params.toc }}
+    <h2>Overview</h2>
+    {{ .TableOfContents }}
+    {{ end }}
+
+    {{ with .Params.podcast_file -}}
+    <audio class = 'podcast_player' controls preload="metadata">
+      <source src="{{ . }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio><br />
+    {{- end }}
+
+    {{- .Content }}
+
+    {{ if .Params.disableComments -}}{{- else -}}
+    <hr>
+    <div id="comments" class="comments">
+      {{ template "_internal/disqus.html" . }}
+    </div>
+    {{ end -}}
+
+  </article>
+  {{- partial "sidebar" . }}
+</div>
+{{- end }}

@@ -1,3 +1,3 @@
 +++
-author = "Hugo Authors"
+author = "Marmita de Redon"
 +++

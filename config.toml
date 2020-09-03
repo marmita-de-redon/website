@@ -3,11 +3,23 @@
 baseURL = "https://marmita-de-redon.github.io/website/"  # Include trailing slash
 languageCode = "pt-pt"
 title = "Marmita de Redon"
-author = "Jane Doe"
-copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
+author = "Marmita de Redon"
+copyright = "Copyright © 2020, Marmita de Cenas; todos os direitos reservados."
 # canonifyurls = true
 paginate = 10
 theme = "hugo-clarity"
+disqusShortname = "marmita-de-redon"
+
+DefaultContentLanguage = "pt"
+[languages]
+  [languages.pt]
+    weight = 1
+  [languages.en]
+    weight = 2
+
+[taxonomies]
+#categoria = "categorias"
+#temporada = "temporadas"
 
 [markup]
   [markup.highlight]
@@ -26,13 +38,15 @@ theme = "hugo-clarity"
     xhtml = false
 
 [params]
-author = "Jane Doe"
-twitter = "@janedoe"
+customCSS = ["css/podcast.css"]
+
+author = "Marmita de Redon"
+twitter = "@marmitaderedon"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Technologist, perpetual student, teacher, continual incremental improvement."
+introDescription = "Um podcast sobre as frustrações dos anos 90 e 2000"
 
 # Google analytics Id
-ga_analytics = "XXXXXXXXXX"
+# ga_analytics = "XXXXXXXXXX"
 
 # limit the number of taxonomies links shown on the sidebar of each page by default.
 numberOfTagsShown = 14 # Applies for all other default & custom taxonomies. e.g categories, brands see https://gohugo.io/content-management/taxonomies#what-is-a-taxonomy
@@ -61,4 +75,23 @@ figurePositionShow = false # toggle on or off globally
 figurePositionLabel = "Figure" # the text before image number e.g Figure 1.0
 
 # Set the collapsed mobile navigation to either appear from the left or the right
-mobileNavigation = "left" # if you prefer right change to 'right'
+mobileNavigation = "right" # if you prefer right change to 'right'
+
+
+
+  [params.feed]
+    copyright = "Este trabalho está licenciado com uma Licença Creative Commons - Atribuição 4.0 Internacional - http://creativecommons.org/licenses/by-nc-nd/4.0/" #do not use markdown in this field; it is used in the feed
+    itunes_subtitle = "Um podcast sobre as frustrações dos anos 90 e 2000" #no markdown or HTML
+    itunes_author = "Marmita de Redon" #no markdown or HTML
+    itunes_summary = "Um podcast sobre as frustrações dos anos 90 e 2000" # Limited to 4000 characters or less, plain text, no HTML
+    itunes_owner_name = "Tiago Carreira"
+    itunes_owner_email = "tiago.g.carreira@gmail.com" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on Apple Podcasts. It will not be publicly displayed on Apple Podcasts.
+    itunes_image = "images/thumbnail.png" #fqdn to the image art for your podcast
+    itunes_top_category = "Society & Culture"
+    itunes_first_sub_category = "Leisure"
+    itunes_second_sub_category = "History"
+    language = "pt-pt"
+    explicit = "clean"
+    googleplay_explicit = "No" # This tag can be a Yes or No value.
+    update_period = "weekly" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
+

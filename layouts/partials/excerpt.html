@@ -1,0 +1,31 @@
+
+<li class = 'post_item'>
+  <div class = 'excerpt'>
+    <div class = 'excerpt_header'>
+      <h3 class = 'post_link'>
+        <a href='{{ .Permalink }}'>{{ .Title  }}</a>
+      </h3>
+      {{ partial "post-meta.html" . }}
+    </div>
+    {{- with .Params.thumbnail }}
+    <div class = 'excerpt_footer partition'>
+      <div class = 'excerpt_thumbnail'>
+      <img src = '{{ if (hasPrefix . "http") }}{{ . }}{{ else }}{{ absURL . }}{{ end }}'>
+      </div>
+      {{ else }}
+      <div class = 'excerpt_footer'>
+        {{- end }}
+        <div>
+          <p class = 'pale'>{{ .Summary | truncate 320 | replaceRE "\n" " " | replaceRE "Atribuição e .*" "" }}</p>
+          <a href='{{ .Permalink }}' class='excerpt_more button'>{{ i18n "read_more" }}</a>
+        </div>
+      </div>
+    </div>
+    {{ with .Params.podcast_file -}}
+    <audio class = 'podcast_player' controls preload="metadata">
+      <source src="{{ . }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio><br />
+    {{- end }}
+  </li>
+  
