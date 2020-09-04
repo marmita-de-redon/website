@@ -6,7 +6,7 @@
 const doc = document.documentElement;
 const inline = ":inline";
 // variables read from your hugo configuration
-const parentURL = 'https://marmita-de-redon.github.io/website/';
+const parentURL = 'https://marmita.pt';
 let showImagePosition = "false";
 
 const showImagePositionLabel = 'Figure';
