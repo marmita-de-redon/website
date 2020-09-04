@@ -11,6 +11,6 @@ Enviem-nos as vossas perguntas e/ou sugestões para o nosso email:
 
 Ou entrem em contacto connosco através das nossas redes sociais
 
-- [Instagram](https://instagram.com/#)
-- [Facebook](https://facebook.com/#)
-- [Twitter](https://twitter.com/#)
+- [Instagram](https://instagram.com/marmitaderedon)
+- [Facebook](https://facebook.com/marmitaderedon)
+- [Twitter](https://twitter.com/marmitaderedon)
