@@ -24,6 +24,7 @@ jobs:
         run: |
           hugo --gc --minify --cleanDestinationDir
           [ -f ./CNAME ] && cp ./CNAME ./public/CNAME || true
+          [ -f ./ALIAS ] && cp ./ALIAS ./public/ALIAS || true
 
 
       - name: Deploy

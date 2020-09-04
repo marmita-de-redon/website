@@ -1,6 +1,6 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-baseURL = "https://marmita-de-redon.github.io/website/"  # Include trailing slash
+baseURL = "https://marmita.pt"  # Include trailing slash
 languageCode = "pt-pt"
 title = "Marmita de Redon"
 author = "Marmita de Redon"
