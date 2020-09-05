@@ -1,23 +1,26 @@
-# hugoBasicExample
+# marmita-de-redon.github.io/website
 
-This repository offers an example site for [Hugo](https://gohugo.io/) and also it provides the default content for demos hosted on the [Hugo Themes Showcase](https://themes.gohugo.io/).
+This repository has the code for the public website (this is really the source).
 
 # Using
 
 1. [Install Hugo](https://gohugo.io/overview/installing/)
 2. Clone this repository
 ```bash
-git clone https://github.com/gohugoio/hugoBasicExample.git
-cd hugoBasicExample
+git clone https://github.com/Marmita-de-Redon/website.git marmita-website
+cd marmita-website
 ```
-3. Clone the repository you want to test. If you want to test all Hugo Themes then follow the instructions provided [here](https://github.com/gohugoio/hugoThemes#installing-all-themes)
-4. Run Hugo and select the theme of your choosing
+3. Run Hugo and access http://localhost:1313/
 ```bash
-hugo server -t YOURTHEME
+hugo server 
 ```
-5. Under `/content/` this repository contains the following:
-- A section called `/post/` with sample markdown content
-- A headless bundle called `homepage` that you may want to use for single page applications. You can find instructions about headless bundles over [here](https://gohugo.io/content-management/page-bundles/#headless-bundle)
-- An `about.md` that is intended to provide the `/about/` page for a theme demo
-6. If you intend to build a theme that does not fit in the content structure provided in this repository, then you are still more than welcome to submit it for review at the [Hugo Themes](https://github.com/gohugoio/hugoThemes/issues) respository
+4. Eposides should be published inside `/content/post`:
+- `/content/post/s01e01.md` with the first episode of Season 1
+- `/content/post/s01e02.md` with the sedond episode of Season 1
+5. Media content (images, audio, videos, etc...) should **NOT** be hosted here (except for website logos).  
+Host those files somewhere else, and link them here.
 
+# Publishing to production (making it live)
+
+Every push to the `main` branch gets automatically deployed to production (in a couple of minutes).  
+This uses [Github Actions](https://docs.github.com/actions) to host the website using [Github Pages](https://pages.github.com/) to do it.
