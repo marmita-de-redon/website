@@ -69,7 +69,7 @@ mainSections = ["post"] # see config details here https://gohugo.io/functions/wh
 # center logo on navbar
 centerLogo = false # Set to "true" for centering or "false" for left aligned.
 
-logo = "logos/logo.png"
+logo = "logos/logo.jpg"
 
 # Label Non inline images on an article body
 figurePositionShow = false # toggle on or off globally
@@ -88,7 +88,7 @@ mobileNavigation = "right" # if you prefer right change to 'right'
     itunes_summary = "Um podcast sobre as frustrações dos anos 90 e 2000" # Limited to 4000 characters or less, plain text, no HTML
     itunes_owner_name = "Tiago Carreira"
     itunes_owner_email = "tiago.g.carreira@gmail.com" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on Apple Podcasts. It will not be publicly displayed on Apple Podcasts.
-    itunes_image = "images/thumbnail.png" #fqdn to the image art for your podcast
+    itunes_image = "images/thumbnail.jpg" #fqdn to the image art for your podcast
     itunes_top_category = "Society & Culture"
     itunes_first_sub_category = "Leisure"
     itunes_second_sub_category = "History"

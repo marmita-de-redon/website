@@ -7,7 +7,7 @@ author = "Marmita de Restos"
 disableComments = true
 +++
 
-![Marmita de Redon](../images/thumbnail-256x256.png)
+![Marmita de Redon](../images/thumbnail-256x256.jpg)
 
 ## Um podcast sobre as frustrações dos anos 90 e 2000
 
