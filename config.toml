@@ -39,6 +39,7 @@ DefaultContentLanguage = "pt"
 
 [params]
 customCSS = ["css/podcast.css"]
+customJS = ["js/custom.js"] # Include custom JS files
 
 author = "Marmita de Redon"
 twitter = "@marmitaderedon"

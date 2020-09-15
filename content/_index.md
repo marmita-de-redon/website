@@ -2,4 +2,4 @@
 author = "Marmita de Redon"
 +++
 
-Um podcast sobre as frustrações dos anos 90 e 2000
+Um podcast sobre os anos 90 e 2000

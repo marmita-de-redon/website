@@ -1,0 +1,9 @@
+<a 
+  id="{{ .Get "id" }}" 
+  direction="{{ .Get "direction" }}" 
+  domain="{{ .Get "domain" }}" 
+  target=_blank
+  href="mailto:{{ .Get "fakemail" }}?subject={{ .Get "subject" }}&body={{ .Get "fakebody" }}" 
+>
+{{ .Inner }}
+</a>
