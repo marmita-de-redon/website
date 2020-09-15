@@ -1,7 +1,7 @@
 +++
-title = "Subscrever o Podcast"
+title = "Fala com o Podcast"
 date = "2020-09-01"
-aliases = ["contact", "reachme"]
+aliases = ["contact", "reachme", "contacto"]
 author = "Marmita de Redon"
 disableComments = true
 +++

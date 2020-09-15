@@ -1,9 +1,9 @@
 +++
-title = "Marmita de Restos"
+title = "Sobre a Marmita de Redon"
 description = "Um podcast sobre os anos 90 e 2000"
 date = "2020-09-01"
 aliases = ["about-us", "about", "contact"]
-author = "Marmita de Restos"
+author = "Marmita de Redon"
 disableComments = true
 +++
 
