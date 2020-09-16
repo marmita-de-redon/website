@@ -13,4 +13,5 @@ Subscrevam o nosso Podcast, para estarem sempre a par de novos episódios.
 - [Apple Podcasts](https://podcasts.apple.com/podcast/marmita-de-redon/id1531584277)
 - [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9tYXJtaXRhLnB0L2ZlZWQvcG9kY2FzdC9pbmRleC54bWw)
 - [Youtube](https://www.youtube.com/channel/UCD74gA66P1OBkqzrYm28nrQ)
+- [Castbox](https://castbox.fm/ch/3329532)
 - [RSS (outros)](../feed/podcast/index.xml)
