@@ -1,6 +1,9 @@
 name: Publish to Github Pages
 
 on:
+  schedule:
+    # Every Friday at 1:00 (AM) UTC
+    - cron:  '0 1 * * 5'
   push:
     branches:
       - main
