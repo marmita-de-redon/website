@@ -21,13 +21,17 @@
     {{ end }}
 
     {{ with .Params.podcast_file -}}
-    <audio class = 'podcast_player' controls preload="metadata">
+    <audio class = 'podcast-player' controls preload="metadata">
       <source src="{{ . }}" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio><br />
     {{- end }}
 
     {{- .Content }}
+
+    {{ with .Params.thumbnail }}
+    <img src = '{{ . | absURL }}' class="episode-image">
+    {{ end }}
 
     {{ if .Params.disableComments -}}{{- else -}}
     <hr>

@@ -65,7 +65,7 @@
       <description>{{ .Description  | plainify  }}</description>
       {{ `<content:encoded><![CDATA[` | safeHTML }}{{ .Content | safeHTML }}{{ `]]></content:encoded>` | safeHTML}}
       <enclosure url="{{ .Site.Params.media_prefix }}{{ .Params.podcast_file }}" {{with .Params.podcast_bytes}}length="{{ . }}"{{ end }} type="audio/mpeg" />
-      <itunes:title>{{ title .Title }}</itunes:title>
+      <itunes:title>{{- if isset .Params "itunes_title" -}}{{ .Params.itunes_title }}{{- else -}}{{ title .Title }}{{- end -}}</itunes:title>
       <itunes:subtitle>{{ .Description | plainify }}</itunes:subtitle>
       <itunes:summary>{{ .Description | plainify }}</itunes:summary>
       <itunes:author>
