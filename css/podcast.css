@@ -6,7 +6,7 @@
   content: " | ***Episódio mais recente***";
 }
 
-.podcast_player {
+.podcast-player {
   width: 100%;
 }
 
@@ -14,4 +14,10 @@
 #documentTop > footer > div > img,
 #documentTop > footer > div > p {
   display: none;
+}
+
+.episode-image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
 }
