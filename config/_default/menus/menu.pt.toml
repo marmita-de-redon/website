@@ -1,0 +1,19 @@
+[[main]]
+  name = "Início"
+  url = ""
+  weight = 1
+
+[[main]]
+  name = "Sobre"
+  url = "sobre/"
+  weight = 2
+
+[[main]]
+  name = "Subscrever"
+  url = "subscrever/"
+  weight = 2
+
+[[main]]
+  name = "Contactos"
+  url = "contactos/"
+  weight = 3
