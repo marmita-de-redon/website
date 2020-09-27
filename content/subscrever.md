@@ -15,4 +15,6 @@ Subscrevam o nosso Podcast, para estarem sempre a par de novos episódios.
 - [Youtube](https://www.youtube.com/channel/UCD74gA66P1OBkqzrYm28nrQ)
 - [Castbox](https://castbox.fm/ch/3329532)
 - [Blubrry](https://blubrry.com/marmitaderedon/)
+- [Breaker](https://www.breaker.audio/u/marmitaderedon)
+- [Pocket Casts](https://pca.st/8jprx5gw)
 - [RSS (outros)](../feed/podcast/index.xml)
