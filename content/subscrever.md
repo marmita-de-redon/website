@@ -32,4 +32,5 @@ Lista de diretórios por ordem alfabética:
 - [RSS (outros)](../feed/podcast/index.xml)
 - [Spotify](https://open.spotify.com/show/7IT4iKuxTByba5aKcRbL6v)
 - [Stitcher](https://www.stitcher.com/podcast/marmita-de-redon)
+- [TuneIn](https://tunein.com/podcasts/Marmita-de-Redon-p1371677)
 - [Youtube](https://www.youtube.com/channel/UCD74gA66P1OBkqzrYm28nrQ)
