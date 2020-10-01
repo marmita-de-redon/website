@@ -17,4 +17,8 @@ Subscrevam o nosso Podcast, para estarem sempre a par de novos episódios.
 - [Blubrry](https://blubrry.com/marmitaderedon/)
 - [Breaker](https://www.breaker.audio/u/marmitaderedon)
 - [Pocket Casts](https://pca.st/8jprx5gw)
+- [Stitcher](https://www.stitcher.com/podcast/marmita-de-redon)
+- [Deezer](https://www.deezer.com/show/1807202)
+- [Podcast Addict](https://podcastaddict.com/podcast/3107986)
+- [acast](https://play.acast.com/s/marmita-de-redon)
 - [RSS (outros)](../feed/podcast/index.xml)
