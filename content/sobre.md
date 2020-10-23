@@ -62,6 +62,15 @@ daqueles que foram os anos da nossa infância.
 
 ## Nome do Podcast
 
+Porquê **Marmita de Redon**?
+
+Para quem não sabe, Redon é apenas uma forma mais chique de dizer "REstos De ONtem".
+Usado muitas vezes pelas nossas mães em resposta a "o que é o jantar hoje?" - "é redon!".
+
+Resolvemos juntar todos os restos da nossa infância (que foi mais ou menos ontem)
+e juntar tudo numa marmita, para podermos consumir onde quisermos.
+
+Esperemos que gostem!
 
 ## Atribuição e licenças
 Este projeto é produzido por: Joana Sanches, Marco Seabra, Tiago Carreira e Tiago Maurício.  
