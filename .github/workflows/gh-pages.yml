@@ -4,6 +4,7 @@ on:
   schedule:
     # Every Friday at 1:00 (AM) UTC
     - cron:  '0 1 * * 5'
+    - cron:  '0 0 25 12 *'
   push:
     branches:
       - main
