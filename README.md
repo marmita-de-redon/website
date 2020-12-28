@@ -14,9 +14,9 @@ cd marmita-website
 ```bash
 hugo server 
 ```
-4. Eposides should be published inside `/content/post`:
+4. Episodes should be published inside `/content/post`:
 - `/content/post/s01e01.md` with the first episode of Season 1
-- `/content/post/s01e02.md` with the sedond episode of Season 1
+- `/content/post/s01e02.md` with the second episode of Season 1
 5. Media content (images, audio, videos, etc...) should **NOT** be hosted here (except for website logos).  
 Host those files somewhere else, and link them here.
 
