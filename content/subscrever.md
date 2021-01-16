@@ -29,6 +29,8 @@ Lista de diretórios por ordem alfabética:
 - [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9tYXJtaXRhLnB0L2ZlZWQvcG9kY2FzdC9pbmRleC54bWw)
 - [Pocket Casts](https://pca.st/8jprx5gw)
 - [Podcast Addict](https://podcastaddict.com/podcast/3107986)
+- [Podcast Index](https://podcastindex.org/podcast/1370615)
+- [Podchaser](https://www.podchaser.com/marmitaderedon)
 - [RSS (outros)](../feed/podcast/index.xml)
 - [Spotify](https://open.spotify.com/show/7IT4iKuxTByba5aKcRbL6v)
 - [Stitcher](https://www.stitcher.com/podcast/marmita-de-redon)
