@@ -2,9 +2,9 @@
   box-shadow: 0px 0px 10px 5px var(--text) !important;
 }
 
-#posts > li:nth-child(1) > div > div.excerpt_header > div ::after {
+/* #posts > li:nth-child(1) > div > div.excerpt_header > div ::after {
   content: " | ***Episódio mais recente***";
-}
+} */
 
 .podcast-player {
   width: 100%;
