@@ -74,7 +74,8 @@ Esperemos que gostem!
 
 ## Atribuição e licenças
 Este projeto é produzido por: Joana Sanches, Marco Seabra, Tiago Carreira e Tiago Maurício.  
-Este website é produzido por Tiago Carreira e o [código aberto](https://github.com/tcarreira) está licenciado nos termos da [Licença MIT](https://github.com/).  
+Este website é produzido por Tiago Carreira e o [código aberto](https://github.com/marmita-de-redon/website)
+está licenciado nos termos da [Licença MIT](https://github.com/marmita-de-redon/website/blob/main/LICENSE).  
 A música [Redon dos 90](https://archive.org/details/redon90) de Tiago Carreira, está licenciada nos termos da [Licença Creative Commons - Atribuição 4.0 Internacional](http://creativecommons.org/licenses/by/4.0/).  
 As imagens usadas estão licenciadas nos termos da [Licença Creative Commons - Atribuição-SemDerivações 4.0 Internacional](https://creativecommons.org/licenses/by-nd/4.0/) (CC BY-ND 4.0).  
 
