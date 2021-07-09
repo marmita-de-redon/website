@@ -7,7 +7,7 @@ This repository has the code for the public website (this is really the source).
 1. [Install Hugo](https://gohugo.io/overview/installing/)
 2. Clone this repository
 ```bash
-git clone https://github.com/Marmita-de-Redon/website.git marmita-website
+git clone https://github.com/marmita-de-redon/website.git marmita-website
 cd marmita-website
 ```
 3. Run Hugo and access http://localhost:1313/
