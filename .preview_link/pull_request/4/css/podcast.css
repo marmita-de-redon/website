@@ -1,0 +1,15 @@
+.podcast-player {
+  width: 100%;
+}
+
+/* Hide copyright notice on the footer*/
+#documentTop > footer > div > img,
+#documentTop > footer > div > p {
+  display: none;
+}
+
+.episode-image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
