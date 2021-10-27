@@ -1,0 +1,50 @@
+name: Publish a preview link to Github Pages on Pull Requests
+
+on:
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.74.3"
+          extended: true
+
+      - name: Get variables - PR number and CNAME
+        id: extract_vars
+        shell: bash
+        run: |
+          echo "##[set-output name=pr_number;]$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")"
+          echo "##[set-output name=cname;]$(head -n1 CNAME)"
+
+      - name: Build
+        run: |
+          hugo --gc --minify --cleanDestinationDir --baseURL="https://${{ steps.extract_vars.outputs.cname }}/.preview_link/pull_request/${{ steps.extract_vars.outputs.pr_number }}/"
+
+      - name: Deploy a preview link
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          destination_dir: ./.preview_link/pull_request/${{ steps.extract_vars.outputs.pr_number }}
+          keep_files: true
+
+      - name: Comment on Pull Request
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "Hi 👋. Thanks for your Pull Request. You may want to see your changes on this [preview link](https://${{ steps.extract_vars.outputs.cname }}/.preview_link/pull_request/${{ steps.extract_vars.outputs.pr_number }})"
+            })
