@@ -23,7 +23,6 @@ Lista de diretórios por ordem alfabética:
 - [Acast](https://play.acast.com/s/marmita-de-redon)
 - [Apple Podcasts](https://podcasts.apple.com/podcast/marmita-de-redon/id1531584277)
 - [Blubrry](https://blubrry.com/marmitaderedon/)
-- [Breaker](https://www.breaker.audio/u/marmitaderedon)
 - [Castbox](https://castbox.fm/ch/3329532)
 - [Deezer](https://www.deezer.com/show/1807202)
 - [Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9tYXJtaXRhLnB0L2ZlZWQvcG9kY2FzdC9pbmRleC54bWw)
