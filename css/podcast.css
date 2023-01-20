@@ -4,10 +4,15 @@
 }
 
 .podcastplayer-audio {
+  display: grid;
   width: 100%;
+  max-height: 40px;
 }
 
 .podcastplayer-speed-button{
+  background-color: var(--waze);
+  color: var(--fg);
+  display: grid;
   text-align: center;
 }
 
