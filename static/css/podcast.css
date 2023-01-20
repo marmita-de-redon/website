@@ -1,10 +1,19 @@
-.podcast-player {
+.podcastplayer {
+  display: grid;
+  grid-template-columns: 85% 15%;
+}
+
+.podcastplayer-audio {
   width: 100%;
 }
 
+.podcastplayer-speed-button{
+  text-align: center;
+}
+
 /* Hide copyright notice on the footer*/
-#documentTop > footer > div > img,
-#documentTop > footer > div > p {
+#documentTop>footer>div>img,
+#documentTop>footer>div>p {
   display: none;
 }
 
