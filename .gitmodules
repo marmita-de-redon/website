@@ -1,3 +1,4 @@
 [submodule "themes/hugo-redon-podcast"]
 	path = themes/hugo-redon-podcast
 	url = https://github.com/marmita-de-redon/hugo-redon-podcast.git
+	branch = podcasting
